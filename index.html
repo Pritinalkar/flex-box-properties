@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex-box</title>
+    <style>
+        .cards{
+            height: 800px;
+            width: 800px;
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: black;
+            border-radius: 5px;
+        }
+        .movies{
+            height: 350px;
+            width: 250px;
+            margin: 20px;
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 5px;
+            position: relative;
+        }
+    </style>
 </head>
 <body>
     <h1>Movies Cards</h1>
+    <div class="cards">
+        <div class="movies">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQGsRDDURcb5pVc-09om9xY3lQ97kyIaL3WrXukSenw&s">
+           <img class="img"  src="https://www.pngall.com/wp-content/uploads/5/Play-Button-PNG-File-Download-Free.png">
+           <b class="name"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Morbius</b>
+        </div>
+        </div>
 </body>
 </html>
